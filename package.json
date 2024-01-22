@@ -1,9 +1,8 @@
 {
-  "name": "@qbem-repos/react-keycloak",
   "version": "0.1.0",
-  "private": false,
+  "name": "@qbem-repos/react-keycloak",
+  "author": "Atanazio01",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "files": [
     "dist"
   ],
@@ -15,6 +14,7 @@
     "deploy": "npm version patch --no-git-tag-version",
     "build_lib": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.6.5",
     "dotenv": "^16.3.1",
