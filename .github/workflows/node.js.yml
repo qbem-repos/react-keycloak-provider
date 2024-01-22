@@ -19,9 +19,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: npm run deploy
       - run: npm install
-      - run: export NODE_OPTIONS=--max_old_space_size=8192 && npm run build_lib
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
