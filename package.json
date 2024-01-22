@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "@qbem-repos/react-keycloak-provider",
   "author": "Atanazio01",
   "description": "Keycloak provider for react",
